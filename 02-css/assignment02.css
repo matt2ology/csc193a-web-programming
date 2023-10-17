@@ -1,0 +1,128 @@
+header {
+  /* The image used */
+  background-image: url("images/2015_19_0034_mashead.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #2e3133;
+  color: #ffffff;
+}
+
+aside {
+  background-color: #454a4c;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+body {
+  background: #000000;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 25px 15px;
+}
+
+nav {
+  background-color: #454a4c;
+}
+
+footer {
+  background-color: #2e3133;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-image: url(https://static.wikia.nocookie.net/leonhartimvu/images/7/7c/PE_Grass.png/revision/latest?cb=20190516082523);
+  background-size: 20%;
+  background-repeat: repeat;
+  /* position at the bottom */
+  background-position: top;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+}
+
+#header {
+  grid-area: header;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+#header > .heading {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#nav ul {
+  margin: 0%;
+  padding: 0;
+  list-style-type: none;
+}
+
+#nav a {
+  background-color: #eee;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 5% 0% 5% 15%;
+  /* top right bottom left padding */
+  text-align: left;
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+#nav a:hover {
+  background-color: #ccc;
+  /* Dark grey background on mouse-over */
+}
+
+#nav a.active {
+  /* background-color: #af4c4c; */
+  /* Add a green color to the "active/current" link */
+  background-color: #ff0009;
+  color: white;
+}
+
+#main {
+  grid-area: main;
+}
+
+#aside {
+  grid-area: aside;
+}
+
+#aside a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#footer {
+  grid-area: footer;
+}
