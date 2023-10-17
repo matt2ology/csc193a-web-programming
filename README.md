@@ -6,7 +6,7 @@ Introduction to the World Wide Web; relationship between clients and servers, ho
 
 - [x] [Assignment 01](01-intro-week/assignment_prompt_01.md)
   - [Assignment 01 submission](01-intro-week/assignment_01_submission.png)
-- [ ] [Assignment 02](02-css/assignment_02_prompt.pdf)
+- [x] [Assignment 02](02-css/assignment_02_prompt.pdf)
   - [assigment02_submission.zip](02-css/assigment02_submission.zip)
 - [ ] [Assignment 03](03-html-css-questions/assignment_03_prompt.pdf)
   -
