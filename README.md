@@ -12,16 +12,16 @@ Introduction to the World Wide Web; relationship between clients and servers, ho
   - [assignment03 response](03-html-css-questions/assignment03_response.md)
 - [ ] [Assignment 04](04-javascript/assignment_04_prompt.pdf)
   -
-- [ ] [Assignment 05](05-asunc-promises-fetch/assignment_05_prompt.pdf)
+- [ ] [Assignment 5 - Fun with JavaScript](05-asunc-promises-fetch/assignment_05_prompt.pdf)
   -
 - [ ] [Assignment 06](06-ajax/assignment_06_prompt.pdf)
   -
-- [ ] [Assignment 07](07-node-js/assignment_07_prompt.pdf)
+- [ ] [Assignment 7 Ajax Exercise](07-node-js/assignment_07_prompt.pdf)
   -
 - [ ] [Assignment 08](08-node-js-database/assignment_08_prompt.pdf)
   -
 - [ ] [Assignment 09](09-local-storage/assignment_09_prompt.pdf)
   -
-- [ ] [Assignment 10](10-chrome-extensions/assignment_10_prompt.pdf)
+- [ ] [Assignment 10 Local Storage and Cookies](10-chrome-extensions/assignment_10_prompt.pdf)
   -
 - [ ] [Final Project](final-project/final_project_prompt.pdf)
