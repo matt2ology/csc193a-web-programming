@@ -43,39 +43,39 @@ function boringOption() {
 
 /**
  * This function should convert the text in the text area to all caps.
- * It should also add "-Moo" to the end of the text.
+ * It should also add "-Moo" to the last word of each sentence.
+ *
+ * @example
+ *  "hello world. i am a cow." -> "HELLO WORLD. I AM A COW-Moo."
+ *
+ * @returns {void}
  */
 function moo() {
-  // Replace with the actual ID of your textarea
+  // get the text area element
   var textarea = document.getElementById("myTextArea");
-  // Convert the text to all caps
+  // get the text from the text area and convert it to uppercase (all caps)
   var text = textarea.value.toUpperCase();
-
-  // Use a regular expression to split the text into sentences
+  // split the text into sentences (split on . ! or ?)
   var sentences = text.split(/([.!?]+)/);
 
-  // Process each sentence and add "-Moo" to the last words while preserving punctuation
-  // += 2 to skip over the punctuation
+  // skip over punctuation tokens (i += 2)
   for (var i = 0; i < sentences.length; i += 2) {
-    // The sentence to process (skip over the punctuation)
+    // get the sentence at index i (0, 2, 4, ...)
     var sentence = sentences[i];
 
-    // If the sentence contains more than one word
+    // if the sentence has a space in it (i.e. it has more than one word)
     if (/\s/.test(sentence)) {
-      // Split the sentence into words
+      // split on whitespace (space, tab, newline, etc.) into words
       var words = sentence.split(/\s+/);
-
-      // Add "-Moo" to the last word
+      // add "-Moo" to the last word of the sentence
       words[words.length - 1] += "-Moo";
-
-      // Join the words back together to form the sentence
+      // rejoin the words into a sentence with spaces between them
       sentences[i] = words.join(" ");
     }
   }
 
-  // Join the sentences back together
+  // rejoin the sentences into a single string with no spaces
   text = sentences.join("");
-
-  // Set the modified text back to the textarea
+  // set the text area value to the new text string we created
   textarea.value = text;
 }
