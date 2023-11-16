@@ -12,11 +12,12 @@ Introduction to the World Wide Web; relationship between clients and servers, ho
   - [assignment03 response](03-html-css-questions/assignment03_response.md)
 - [x] [Assignment 04](04-javascript/assignment_04_prompt.pdf) - 2023/10/24
   - <https://matt2ology.github.io/>
-- [ ] [Assignment 5 - Fun with JavaScript](05-asunc-promises-fetch/assignment_05_prompt.pdf)
-  -
+- [x] [Assignment 05 - Fun with JavaScript](05-asunc-promises-fetch/assignment_05_prompt.pdf)
+  - <https://matt2ology.github.io/>
+  - <https://matt2ology.github.io/fancifymytext.html>
 - [ ] [Assignment 06](06-ajax/assignment_06_prompt.pdf)
   -
-- [ ] [Assignment 7 Ajax Exercise](07-node-js/assignment_07_prompt.pdf)
+- [ ] [Assignment 07 Ajax Exercise](07-node-js/assignment_07_prompt.pdf)
   -
 - [ ] [Assignment 08](08-node-js-database/assignment_08_prompt.pdf)
   -
