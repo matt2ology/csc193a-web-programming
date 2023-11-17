@@ -34,6 +34,10 @@
    */
   function handleClick() {
     console.log("Button clicked!");
+    let inputText = document.getElementById("input-text");
+    let outputParagraph = document.getElementById("result");
+    let encryptedText = shiftCipher(inputText.value);
+    outputParagraph.textContent = encryptedText;
   }
 
   /**
@@ -43,5 +47,20 @@
   function handleReset() {
     let inputText = document.getElementById("input-text");
     inputText.value = "";
+  }
+
+  function shiftCipher(text) {
+    let result = "";
+    for (let i = 0; i < text.length; i++) {
+      let charCode = text.charCodeAt(i);
+      if (charCode >= 65 && charCode <= 90) {
+        result += String.fromCharCode((charCode - 65 + 1) % 26 + 65);
+      } else if (charCode >= 97 && charCode <= 122) {
+        result += String.fromCharCode((charCode - 97 + 1) % 26 + 97);
+      } else {
+        result += text.charAt(i);
+      }
+    }
+    return result;
   }
 })();
