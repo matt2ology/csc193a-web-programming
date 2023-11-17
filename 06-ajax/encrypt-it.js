@@ -20,6 +20,9 @@
     // for UI elements on the page.
     let button = document.getElementById("encrypt-it");
     button.addEventListener("click", handleClick);
+
+    let resetButton = document.getElementById("reset");
+    resetButton.addEventListener("click", handleReset);
   }
 
   // Add any other functions in this area (you should not implement your
@@ -31,5 +34,14 @@
    */
   function handleClick() {
     console.log("Button clicked!");
+  }
+
+  /**
+   * This function is called in response to the reset button being clicked.
+   * It clear the input text field.
+   */
+  function handleReset() {
+    let inputText = document.getElementById("input-text");
+    inputText.value = "";
   }
 })();
