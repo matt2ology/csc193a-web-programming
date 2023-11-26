@@ -13,4 +13,6 @@ author:
 
 [AJAX with fetch slide deck](ajax_with_fetch.pdf)
 
-Go through the reading and exercise.  The solution is provided at the end.  So don't turn in your answer, instead include three questions you have on AJAX and this process.
+Go through the reading and exercise. The solution is provided at the end.
+So don't turn in your answer, instead include three questions you have on
+AJAX and this process.
