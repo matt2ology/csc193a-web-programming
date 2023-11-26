@@ -7,10 +7,6 @@ author:
 
 # asynchronous, Promises, async, fetch: CSC193A Web Programming - SECTION 01
 
----
-
-CSC 193A-01
-
 asynchronous, Promises, async, fetch
 
 - [Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)

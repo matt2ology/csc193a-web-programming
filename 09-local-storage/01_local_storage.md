@@ -7,8 +7,4 @@ author:
 
 # Local Storage: CSC193A Web Programming - SECTION 01
 
-> ## Excerpt
-> https://docs.google.com/presentation/d/1ooHLYy4kbU6ltXaHuh67LWX55YbDkVmNGgS4J8nhM7s/edit?usp=sharing
-
----
-https://docs.google.com/presentation/d/1ooHLYy4kbU6ltXaHuh67LWX55YbDkVmNGgS4J8nhM7s/edit?usp=sharing
+[Local Storage Slide Deck](local_storage.pdf)

@@ -7,10 +7,6 @@ author:
 
 # More javascript, dom, timer: CSC193A Web Programming - SECTION 01
 
----
-
-CSC 193A-01
-
 More javascript, dom, timer
 
 - [How To Make Changes to the DOM](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-domLinks)

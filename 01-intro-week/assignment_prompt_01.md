@@ -12,6 +12,8 @@ author: Gary Kane
 - Due Dec 15 by 11:59pm
 - Points 10
 
+[meet_whos_who](meet_whos_who.pdf)
+
 (5 points)
 
 Then respond to TWO of your peer's slides.
