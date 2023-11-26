@@ -19,8 +19,8 @@ Introduction to the World Wide Web; relationship between clients and servers, ho
   - [encrypt-it.html](06-ajax/encrypt-it.html)
   - [encrypt-it.js](06-ajax/encrypt-it.js)
   - [style.css](06-ajax/style.css)
-- [ ] [Assignment 07 Ajax Exercise](07-node-js/assignment_07_prompt.pdf)
-  -
+- [x] [Assignment 07 Ajax Exercise](07-node-js/assignment_07_prompt.pdf)
+  - [Assignment 7 Ajax Exercise Response](07-node-js/assignment_07_prompt_response.md)
 - [ ] [Assignment 08](08-node-js-database/assignment_08_prompt.pdf)
   -
 - [ ] [Assignment 09](09-local-storage/assignment_09_prompt.pdf)
