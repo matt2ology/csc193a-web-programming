@@ -10,3 +10,4 @@ author:
 - [Learn Node.js®](https://nodejs.org/en/learn/)
 - [Express, a popular Node.js Framework](https://flaviocopes.com/express/)
 - [Intro to Node.js](intro_to_node_js.pdf)
+- [AJAX with fetch slide deck](ajax_with_fetch.pdf)
