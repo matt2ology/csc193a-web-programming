@@ -15,8 +15,10 @@ Introduction to the World Wide Web; relationship between clients and servers, ho
 - [x] [Assignment 05 - Fun with JavaScript](05-asunc-promises-fetch/assignment_05_prompt.pdf)
   - <https://matt2ology.github.io/>
   - <https://matt2ology.github.io/fancifymytext.html>
-- [ ] [Assignment 06](06-ajax/assignment_06_prompt.pdf)
-  -
+- [x] [Assignment 06](06-ajax/assignment_06_prompt.pdf)
+  - [encrypt-it.html](06-ajax/encrypt-it.html)
+  - [encrypt-it.js](06-ajax/encrypt-it.js)
+  - [style.css](06-ajax/style.css)
 - [ ] [Assignment 07 Ajax Exercise](07-node-js/assignment_07_prompt.pdf)
   -
 - [ ] [Assignment 08](08-node-js-database/assignment_08_prompt.pdf)
