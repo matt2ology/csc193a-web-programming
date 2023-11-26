@@ -7,14 +7,6 @@ author:
 
 # Node.js: CSC193A Web Programming - SECTION 01
 
-> ## Excerpt
-> Student
-Technology
-Resources
-
----
-[
-
-Student Technology Resources
-
-](https://csus.instructure.com/courses/74723)
+- [Learn Node.js®](https://nodejs.org/en/learn/)
+- [Express, a popular Node.js Framework](https://flaviocopes.com/express/)
+- [Intro to Node.js](intro_to_node_js.pdf)
