@@ -1,5 +1,8 @@
 /*
  * Starter file
+ * We use this anonymous function to create a private namespace for our code,
+ * so that we don't expose our variables to the global scope.
+ * This is a good practice to follow, even if you don't have any variables.
  */
 (function () {
   "use strict";
@@ -12,7 +15,7 @@
   window.addEventListener("load", init);
 
   /**
-   * TODO: Write a function comment using JSDoc.
+   * init is the function called when the HTML document has been loaded on the page.
    */
   function init() {
     console.log("Window loaded!");
@@ -49,6 +52,13 @@
     inputText.value = "";
   }
 
+  /**
+   * This function takes a string and encrypts it using a Caesar cipher.
+   *
+   * @param {string} text - the text to be encrypted
+   * @returns {string} - the encrypted text
+   * @example shiftCipher("abc") returns "bcd"
+   */
   function shiftCipher(text) {
     let result = "";
     for (let i = 0; i < text.length; i++) {
