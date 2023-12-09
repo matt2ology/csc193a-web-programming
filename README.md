@@ -46,7 +46,8 @@ integrate web applications with databases.
   - [Assignment 7 Ajax Exercise Response](07-node-js/assignment_07_prompt_response.md)
 - [x] [Assignment 08](08-node-js-database/assignment_08_prompt.md)
   - [app.js](08-node-js-database/assignment08-submission/app.js)
-- [ ] [Assignment 09](09-local-storage/assignment_09_prompt.pdf)
+- [x] [Assignment 09](09-local-storage/assignment_09_prompt.pdf)
+  - [Assignment 9 response](09-local-storage/assignment_09_response.md)
 - [ ] [Assignment 10 Local Storage and Cookies](10-chrome-extensions/assignment_10_prompt.pdf)
 - [ ] [Final Project](final-project/final_project_prompt.pdf)
 
