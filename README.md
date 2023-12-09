@@ -50,6 +50,8 @@ integrate web applications with databases.
   - [Assignment 9 response](09-local-storage/assignment_09_response.md)
 - [x] [Assignment 10 Local Storage and Cookies](10-chrome-extensions/assignment_10_prompt.pdf)
   - [Assignment 10 response](10-chrome-extensions/assignment_10_response.md)
+- [x] [Final Project](final-project/final_project_prompt.pdf)
+  - [Final Project Submission](final-project/final_project_submission.md)
 
 ## Modules
 
